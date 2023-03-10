@@ -169,3 +169,79 @@
   }
 
 }
+
+@media screen and ( min-width: 820.98px ) {
+
+  .title {
+
+    font-size: 4.5rem;
+
+  }
+
+  .accordion {
+
+    color: #405bbb;
+
+  }
+
+  .accordion:hover .accordion__icon {
+
+    opacity: 1;
+
+  }
+
+  .accordion:hover .accordion__title {
+
+    color: #000000;
+
+  }
+
+  .accordion__toggler:checked + .accordion__content {
+
+    color: #000000;
+
+  }
+
+  .accordion__item:hover .accordion__icon {
+
+    transform: rotate( 0 );
+
+  }
+
+  .accordion__item:hover .accordion__body {
+
+    max-height: 100vh;
+
+  }
+
+  .accordion__item:active .accordion__title {
+
+    color: #405bbb;
+
+  }
+
+  .accordion__content {
+
+    cursor: pointer;
+
+  }
+
+  .accordion__title {
+
+    font-size: 3rem;
+
+  }
+
+  .accordion__icon {
+
+    opacity: 0;
+
+  }
+
+  .accordion__image {
+
+    max-height: 50vh;
+
+  }
+
+}
